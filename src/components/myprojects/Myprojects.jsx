@@ -1,8 +1,7 @@
 import React from 'react'
 import './myprojects.css'
-import IMG1 from '../../assets/img5.jpg'
-import IMG2 from '../../assets/img2.png'
-import IMG3 from '../../assets/img3.png'
+import IMG1 from '../../assets/img5.png'
+// import IMG3 from '../../assets/img3.png'
 import IMG4 from '../../assets/img4.png'
 
 const Myprojects = () => {
@@ -18,23 +17,11 @@ const Myprojects = () => {
             <div className="portfolio__item-image">
                 <img src={IMG1} alt="" />
             </div>
-            <h3>Fashion Gallery</h3>
-            <small className='text-light'>Spring Boot | ReactJs | MySQL</small>
+            <h3>Events management application</h3>
+            <small className='text-light'>ReactJs | Typescript | Redux toolkit | Firebase | Social login | Google Map API</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/himani413/FashionGallery" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://medvent-acf2f.web.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
-              
-        </article>
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG2} alt="" />
-            </div>
-            <h3>Beauty Garden</h3>
-            <small className='text-light'>HTML | CSS | JS | php | MySQL</small>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/Thakshila-Bandara/Beauty-Garden" target="_blank" rel='noreferrer' className='btn'>Github</a>  
-            </div>
-            
         </article>
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
@@ -43,12 +30,11 @@ const Myprojects = () => {
             <h3>My Portfolio(This website)</h3>
             <small className='text-light'>ReactJs</small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/Thakshila-Bandara/my-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://thakshila-bandara.github.io/my-portfolio/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://rassidm.github.io/portfolio/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG3} alt="" />
             </div>
@@ -59,7 +45,7 @@ const Myprojects = () => {
               <a href="https://thakshila-bandara.github.io/my-resume/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
-        </article>
+        </article> */}
       </div>
     </section>
   )

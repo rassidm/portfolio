@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import myImage from '../../assets/my-image2.jpg'
+import myImage from '../../assets/me.png'
 import {GiGraduateCap} from 'react-icons/gi'
 import {BsBookmarkStar} from 'react-icons/bs'
 import {TfiWorld} from 'react-icons/tfi'
@@ -26,7 +26,7 @@ const About = () => {
               <article className='about__card'>
                   <GiGraduateCap className='about__icon'/>
                   <h5>Degree</h5>
-                  <small>Bsc.(Hons) Software Engneering(UG) <br /><i>University of Kelaniya.</i></small>
+                  <small>M.Eng Software Engineering <br /><i>IMT-Mines Ales.</i></small>
               </article>
 
               <article className='about__card'>
@@ -40,8 +40,8 @@ const About = () => {
                   <h5>Domains</h5>
                   <small>
                     <ul>
-                      <li>Net Centric</li>
-                      <li>Mobile Applications</li>
+                      <li>Software Architecture and Design</li>
+                      <li>Full-Stack Software Development</li>
                     </ul>
                   </small>
               </article>
@@ -50,11 +50,7 @@ const About = () => {
 
             </div>
             <p>
-                    I'm a <b>Software Engineering Undergradute</b> at the University of Kelaniya. 
-                    I'm an enthusiastic and driven Software Engineering student seeking a challenging internship opportunity to apply 
-                    and expand my technical skills. 
-                    With a strong academic foundation in software engineering and hands-on experience in various programming languages,
-                    I am eager to contribute to innovative projects and learn from experienced professionals in the industry. I am a quick learner who is always ready to face challenges.
+            Multi‑disciplined and energetic <b>Software Engineer</b> committed to delivering business results that leverage cutting‑edge ideas and technology. Passionate about Software architecture, continuous innovation. Highly adept at building teams and driving results in complex and chaotic environments, with a history of delivery successes.
                     
             </p>
 
@@ -63,5 +59,7 @@ const About = () => {
     </section>
   )
 }
+
+
 
 export default About
