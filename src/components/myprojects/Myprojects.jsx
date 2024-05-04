@@ -1,7 +1,7 @@
 import React from 'react'
 import './myprojects.css'
 import IMG1 from '../../assets/img5.png'
-// import IMG3 from '../../assets/img3.png'
+import IMG6 from '../../assets/img6.png'
 import IMG4 from '../../assets/img4.png'
 
 const Myprojects = () => {
@@ -18,10 +18,23 @@ const Myprojects = () => {
                 <img src={IMG1} alt="" />
             </div>
             <h3>Events management application</h3>
-            <small className='text-light'>ReactJs | Typescript | Redux toolkit | Firebase | Social login | Google Map API</small>
+            <small className='text-light'>ReactJS | Typescript | Redux toolkit | Firebase | Social login | Google Map API</small>
             <div className="portfolio__item-cta">
               <a href="https://medvent-acf2f.web.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
+        </article>
+
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG6} alt="" />
+            </div>
+            <h3>Simple Time Tracking Appliction</h3>
+            <small className='text-light'>ReactJS | React Hooks | Firebase | Social login </small>
+            <div className="portfolio__item-cta">
+              {/* <a href="https://github.com/Thakshila-Bandara/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a> */}
+              <a href="https://medtimetracking.web.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+            
         </article>
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
@@ -34,18 +47,6 @@ const Myprojects = () => {
             </div>
             
         </article>
-        {/* <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={IMG3} alt="" />
-            </div>
-            <h3>My Resume</h3>
-            <small className='text-light'>HTML | CSS | JS | Bootstrap</small>
-            <div className="portfolio__item-cta">
-              <a href="https://github.com/Thakshila-Bandara/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="https://thakshila-bandara.github.io/my-resume/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
-            </div>
-            
-        </article> */}
       </div>
     </section>
   )
