@@ -3,6 +3,7 @@ import './myprojects.css'
 import IMG1 from '../../assets/img5.png'
 import IMG6 from '../../assets/img6.png'
 import IMG4 from '../../assets/img4.png'
+import IMG7 from '../../assets/img7.png'
 
 const Myprojects = () => {
   return (
@@ -25,10 +26,10 @@ const Myprojects = () => {
         </article>        
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
-                <img src={IMG6} alt="" />
+                <img src={IMG7} alt="" />
             </div>
             <h3>Application for matching tutors with students</h3>
-            <small className='text-light'>SpringBoot 3.2 | Postgres/JPA | HTMX/Hyperscript | Social login </small>
+            <small className='text-light'>SpringBoot 3.2 / Java 21 | Postgres/JPA | HTMX/Hyperscript | Social login </small>
             <div className="portfolio__item-cta">
               {/* <a href="https://github.com/Thakshila-Bandara/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a> */}
               <a href="https://med-tutor-matcher.fly.dev/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
