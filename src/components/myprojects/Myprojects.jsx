@@ -8,7 +8,7 @@ const Myprojects = () => {
   return (
     <section id='myprojects'>
 
-      <h5>My Recent Works</h5>
+      <h5>My Recent Personal Learning</h5>
       <h2>Projects</h2>
 
       <div className="container portfolio__container">
@@ -17,18 +17,32 @@ const Myprojects = () => {
             <div className="portfolio__item-image">
                 <img src={IMG1} alt="" />
             </div>
-            <h3>Events management application</h3>
+            <h3>Events Management Application</h3>
             <small className='text-light'>ReactJS | Typescript | Redux toolkit | Firebase | Social login | Google Map API</small>
             <div className="portfolio__item-cta">
               <a href="https://medvent-acf2f.web.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
+        </article>        
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG6} alt="" />
+            </div>
+            <h3>Application for matching tutors with students</h3>
+            <small className='text-light'>SpringBoot 3.2 | Postgres/JPA | HTMX/Hyperscript | Social login </small>
+            <div className="portfolio__item-cta">
+              {/* <a href="https://github.com/Thakshila-Bandara/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a> */}
+              <a href="https://med-tutor-matcher.fly.dev/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+            
         </article>
+
+
 
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG6} alt="" />
             </div>
-            <h3>Simple Time Tracking Appliction</h3>
+            <h3>Simple Time Tracking Application</h3>
             <small className='text-light'>ReactJS | React Hooks | Firebase | Social login </small>
             <div className="portfolio__item-cta">
               {/* <a href="https://github.com/Thakshila-Bandara/my-resume" target="_blank" rel='noreferrer' className='btn'>Github</a> */}
