@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d915b31c.css",
-    "main.js": "/portfolio/static/js/main.d65d3586.js",
+    "main.js": "/portfolio/static/js/main.c038ada2.js",
     "static/media/me.png": "/portfolio/static/media/me.5fc50efd3cec1d001bc9.png",
     "static/media/img6.png": "/portfolio/static/media/img6.ca366452f821b1e0f00d.png",
     "static/media/img5.png": "/portfolio/static/media/img5.e29ea4911835b37b6d2f.png",
     "static/media/img4.png": "/portfolio/static/media/img4.a71f15bce21a1dc07c5e.png",
+    "static/media/img7.png": "/portfolio/static/media/img7.fcb1a8c4175a4ece9151.png",
     "static/media/ELMEHDI_RASSID_CV.pdf": "/portfolio/static/media/ELMEHDI_RASSID_CV.c42bbb1d7c645000579d.pdf",
     "index.html": "/portfolio/index.html",
     "main.d915b31c.css.map": "/portfolio/static/css/main.d915b31c.css.map",
-    "main.d65d3586.js.map": "/portfolio/static/js/main.d65d3586.js.map"
+    "main.c038ada2.js.map": "/portfolio/static/js/main.c038ada2.js.map"
   },
   "entrypoints": [
     "static/css/main.d915b31c.css",
-    "static/js/main.d65d3586.js"
+    "static/js/main.c038ada2.js"
   ]
 }
