@@ -4,6 +4,7 @@ import IMG1 from '../../assets/img5.png'
 import IMG6 from '../../assets/img6.png'
 import IMG4 from '../../assets/img4.png'
 import IMG7 from '../../assets/img7.png'
+import IMG8 from '../../assets/img8.png'
 
 const Myprojects = () => {
   return (
@@ -23,7 +24,17 @@ const Myprojects = () => {
             <div className="portfolio__item-cta">
               <a href="https://medvent-acf2f.web.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
-        </article>        
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={IMG8} alt="" />
+            </div>
+            <h3>Social Dation Web Application</h3>
+            <small className='text-light'>NextJS | Typescript | Prisma/Postgres | Next Auth | Socket IO | Vercel | Social login </small>
+            <div className="portfolio__item-cta">
+              <a href="https://quick-match.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+            </div>
+        </article>  
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG7} alt="" />
