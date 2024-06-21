@@ -29,7 +29,7 @@ const Myprojects = () => {
             <div className="portfolio__item-image">
                 <img src={IMG8} alt="" />
             </div>
-            <h3>Social Dation Web Application</h3>
+            <h3>Social Dating Web Application</h3>
             <small className='text-light'>NextJS | Typescript | Prisma/Postgres | Next Auth | Socket IO | Vercel | Social login </small>
             <div className="portfolio__item-cta">
               <a href="https://quick-match.vercel.app/" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
